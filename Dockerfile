@@ -1,4 +1,2 @@
-RUN export GIT_SHA=$(git rev-parse --short HEAD)
-
-ARG BASE_CONTAINER=libretexts/default-env:$GIT_SHA
+ARG BASE_CONTAINER=libretexts/default-env:master
 FROM $BASE_CONTAINER 
