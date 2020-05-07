@@ -1,2 +1,2 @@
-ARG BASE_CONTAINER=libretexts/default-env:master
+ARG BASE_CONTAINER=libretexts/default-env:82bae0bca736
 FROM $BASE_CONTAINER 
